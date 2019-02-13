@@ -1,0 +1,21 @@
+<div
+  class="top-bar topbar-center-logo"
+  id="topbar-center-logo"
+  style="background-color:white"
+>
+  <div class="top-bar-left"></div>
+  <div class="top-bar-center">
+    <a href="../index.html">
+      <img src="{{ site.url }}/images/logo-2.jpg" style="width:100px" />
+    </a>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu" style="background-color:white">
+      {% for item in site.data.nav %}
+      <li>
+        <a href="{{ item.link }}">{{ item.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

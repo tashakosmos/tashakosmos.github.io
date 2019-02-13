@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+    <!-- <div class="grid-container"> -->
+    <div class="grid-x">
+      <div class="cell large-8 large-offset-2">{{ content }}</div>
+    </div>
+    <!-- </div> -->
+    {% include footer.html %}
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="/js/galleryMenu.js"></script>
+  </body>
+</html>

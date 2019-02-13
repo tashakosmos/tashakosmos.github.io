@@ -1,0 +1,57 @@
+<footer class="social-footer">
+  <div class="social-footer-left">
+    <p>©2019 {{ site.title }}. All rights reserved.</p>
+  </div>
+  <div class="social-footer-icons">
+    <ul class="menu simple">
+      <li>
+        <a href="http://instagram.com/tashakosmos"
+          ><i class="fa fa-instagram" aria-hidden="true"></i
+        ></a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/tasha.konkina"
+          ><i class="fa fa-facebook" aria-hidden="true"></i
+        ></a>
+      </li>
+      <li>
+        <a href="http://vk.com/tashakosmos"
+          ><i class="fa fa-vk" aria-hidden="true"></i
+        ></a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+<!-- jQuery version must be >= 1.8.0; -->
+<script src="/js/jquery.min.js"></script>
+<script src="/js/lightgallery.min.js"></script>
+<script src="/js/justifiedGallery.min.js"></script>
+<!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script> -->
+
+<!-- lightgallery plugins -->
+<script src="/js/lg-thumbnail.min.js"></script>
+
+<!-- Foundation -->
+<script
+  src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/js/foundation.min.js"
+  integrity="sha256-/PFxCnsMh+nTuM0k3VJCRch1gwnCfKjaP8rJNq5SoBg= sha384-9ksAFjQjZnpqt6VtpjMjlp2S0qrGbcwF/rvrLUg2vciMhwc1UJJeAAOLuJ96w+Nj sha512-UMSn6RHqqJeJcIfV1eS2tPKCjzaHkU/KqgAnQ7Nzn0mLicFxaVhm9vq7zG5+0LALt15j1ljlg8Fp9PT1VGNmDw=="
+  crossorigin="anonymous"
+></script>
+
+<script>
+  $(document).ready(function() {
+    $("#lightgallery").justifiedGallery({
+      randomize: false,
+      captions: true,
+      rowHeight: 200,
+      margins: 3,
+      lastRow: "justify"
+    });
+    $("#lightgallery").lightGallery({
+      thumbnail: true,
+      download: false
+    });
+  });
+</script>

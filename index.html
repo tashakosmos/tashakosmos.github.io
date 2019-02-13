@@ -1,0 +1,74 @@
+---
+layout: index
+section_id: home
+classes:
+  - travel
+  - commercial
+  - reportage
+  - people
+  - blog
+works:
+  - image: images/diy-light/1.jpg
+    class: blog
+    title: DIY-маяк
+    desc: "инструкция по сборке"
+    link: diy-lighthouse
+  - image: images/tanzania/t-5.jpg
+    class: travel
+    title: Tanzania
+    desc: "Safari and Zanzibar"
+    link: tanzania
+  - image: images/rezo/r-3.jpg
+    class: travel blog reportage
+    title: Резо
+    desc: "Маленькая грузинская история"
+    link: rezo
+  - image: images/shliapa/2.jpg
+    class: people commercial
+    title: Hats and Lights
+    desc: "Kotka, Finland"
+    link: shliapa
+  - image: images/elkipalki/11.jpg
+    class: reportage
+    title: Xmas trees recycling
+    desc: Winter charity event
+    link: elkipalki
+  - image: images/sakura/5.jpg
+    class: reportage
+    title: Sakura band
+    desc: "The last concert"
+    link: sakura
+---
+
+<ul class="menu menu-hover-lines align-center">
+  <li class="active" data-filter="*">
+    <a href="#">All</a>
+  </li>
+  {% for class in page.classes %}
+  <li data-filter=".{{ class }}">
+    <a href="#"> {{ class }}</a>
+  </li>
+  {% endfor %}
+</ul>
+<br />
+
+<div class="gallery">
+  {% for work in page.works %}
+  <div
+    class="element-item {{ work.class }} "
+    data-category="transition"
+    style="width: 33.333%; padding: 2px"
+  >
+    <a href="{{ work.link }}">
+      <img src="{{ work.image }}" />
+      <div class="overlay">
+        <div class="info">
+          <h3>{{ work.title }}</h3>
+          <p>{{ work.desc }}</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+<br />
