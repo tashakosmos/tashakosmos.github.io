@@ -1,21 +1,21 @@
 <footer class="social-footer">
   <div class="social-footer-left">
-    <p>©2019 {{ site.title }}. All rights reserved.</p>
+    <p>© 2019 {{ site.title }}. All rights reserved.</p>
   </div>
   <div class="social-footer-icons">
     <ul class="menu simple">
       <li>
-        <a href="http://instagram.com/tashakosmos"
+        <a href="http://instagram.com/{{ site.instagram }}"
           ><i class="fa fa-instagram" aria-hidden="true"></i
         ></a>
       </li>
       <li>
-        <a href="https://www.facebook.com/tasha.konkina"
+        <a href="http://facebook.com/{{ site.facebook }}"
           ><i class="fa fa-facebook" aria-hidden="true"></i
         ></a>
       </li>
       <li>
-        <a href="http://vk.com/tashakosmos"
+        <a href="http://vk.com/{{ site.vk }}"
           ><i class="fa fa-vk" aria-hidden="true"></i
         ></a>
       </li>
@@ -51,7 +51,8 @@
     });
     $("#lightgallery").lightGallery({
       thumbnail: true,
-      download: false
+      download: false,
+      selector: ".item"
     });
   });
 </script>
