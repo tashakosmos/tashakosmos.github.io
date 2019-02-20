@@ -5,6 +5,10 @@ var $grid = $(".gallery").isotope({
   itemSelector: ".cell"
   // layoutMode: "fitRows"
 });
+// layout Isotope after each image loads
+$grid.imagesLoaded().progress(function() {
+  $grid.isotope("layout");
+});
 // bind filter button click
 $(".menu-hover-lines").on("click", "li", function() {
   var filterValue = $(this).attr("data-filter");
