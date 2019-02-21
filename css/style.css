@@ -164,3 +164,42 @@
   color: #4a4a4a;
   transition: color 0.3s ease-in;
 }
+
+/* About */
+
+/* .about-the-author {
+  background-color: #fefefe;
+  padding: 1rem;
+} */
+
+/* .about-the-author .separator-left {
+  text-align: left;
+} */
+
+.about-the-author .separator-left::before,
+.about-the-author .separator-left::after {
+  display: table;
+  content: " ";
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+/* .about-the-author .separator-left::after {
+  clear: both;
+} */
+
+.about-the-author .separator-left::after {
+  position: relative;
+  width: 5rem;
+  border-bottom: 0.125rem solid #1779ba;
+  margin: 0.3rem auto 0;
+  margin-left: 0;
+}
+
+.about-the-author .author-image {
+  border: 1px solid #cacaca;
+}
