@@ -63,17 +63,17 @@
     </ul>
   </div>
 </div>
+ <div class="grid-x" style="background: #333">
+  <div class="cell">
+    <h2 class="text-center" style="color: #fff;">Bikes&Lights video</h2>
+  </div>
+</div>
+</br>
 
-
-    <div class="grid-x" style="background: #333">
-      <div class="cell">
-        <h2 class="text-center" style="color: #fff;">Bikes&Lights video</h2>
-      </div>
-    </div>
-
-    <div class="grid-x">
-      <div class="cell large-8 large-offset-2">
-        <h3 id="awesome-trip-around-estonian-lighthouses">awesome trip around Estonian lighthouses</h3>
+    <div class="grid-container">
+      <div class="grid-x">
+        <div class="cell">
+          <h3 id="awesome-trip-around-estonian-lighthouses">awesome trip around Estonian lighthouses</h3>
 
 <p>In April 2016 <a href="http://2girls2bikes.com" target="\_blank">Bikes&amp;Lights project</a> was born.</p>
 
@@ -100,27 +100,34 @@ In the blog you will fing a detailed story about every day of our travel and a r
 
 <p>There are more videos and pictures on our <a href="http://2girls2bikes.com" target="\_blank">blog</a> and our <a href="http://instagram.com/2girls2bikes" target="\_blank">Instagram</a>!</p>
 
+        </div>
       </div>
     </div>
 
-    <footer class="social-footer">
+    <br />
+<footer class="social-footer">
   <div class="social-footer-left">
-    <p>©2019 Meetthekosmos.com. All rights reserved.</p>
+    <p>© 2019 Meetthekosmos.com. All rights reserved.</p>
+    <h7>
+       Makes with
+      <i class="fa fa-heart" style="color:Tomato"></i> by
+      <a href="http://www.balukov.com">ivan balukov</a>
+    </h7>
   </div>
   <div class="social-footer-icons">
     <ul class="menu simple">
       <li>
-        <a href="http://instagram.com/tashakosmos"
+        <a href="http://instagram.com/"
           ><i class="fa fa-instagram" aria-hidden="true"></i
         ></a>
       </li>
       <li>
-        <a href="https://www.facebook.com/tasha.konkina"
+        <a href="http://facebook.com/"
           ><i class="fa fa-facebook" aria-hidden="true"></i
         ></a>
       </li>
       <li>
-        <a href="http://vk.com/tashakosmos"
+        <a href="http://vk.com/"
           ><i class="fa fa-vk" aria-hidden="true"></i
         ></a>
       </li>
@@ -156,7 +163,8 @@ In the blog you will fing a detailed story about every day of our travel and a r
     });
     $("#lightgallery").lightGallery({
       thumbnail: true,
-      download: false
+      download: false,
+      selector: ".item"
     });
   });
 </script>

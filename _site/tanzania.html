@@ -63,62 +63,69 @@
     </ul>
   </div>
 </div>
+ <div class="grid-x" style="background: #333">
+  <div class="cell">
+    <h2 class="text-center" style="color: #fff;">Танзания</h2>
+  </div>
+</div>
+</br>
 
-
-    <div class="grid-x" style="background: #333">
-      <div class="cell">
-        <h2 class="text-center" style="color: #fff;">Танзания</h2>
-      </div>
-    </div>
-
-    <div class="grid-x">
-      <div class="cell large-8 large-offset-2">
-        <div id="lightgallery">
+    <div class="grid-container">
+      <div class="grid-x">
+        <div class="cell">
+          <div id="lightgallery">
   
-  <a href="/images/tanzania/t-1.jpg">
+  <a class="item" href="/images/tanzania/t-1.jpg">
     <img src="/images/tanzania/t-1.jpg" />
   </a>
   
-  <a href="/images/tanzania/t-2.jpg">
+  <a class="item" href="/images/tanzania/t-2.jpg">
     <img src="/images/tanzania/t-2.jpg" />
   </a>
   
-  <a href="/images/tanzania/t-3.jpg">
+  <a class="item" href="/images/tanzania/t-3.jpg">
     <img src="/images/tanzania/t-3.jpg" />
   </a>
   
-  <a href="/images/tanzania/t-4.jpg">
+  <a class="item" href="/images/tanzania/t-4.jpg">
     <img src="/images/tanzania/t-4.jpg" />
   </a>
   
-  <a href="/images/tanzania/t-5.jpg">
+  <a class="item" href="/images/tanzania/t-5.jpg">
     <img src="/images/tanzania/t-5.jpg" />
   </a>
   
 </div>
 
 
+        </div>
       </div>
     </div>
 
-    <footer class="social-footer">
+    <br />
+<footer class="social-footer">
   <div class="social-footer-left">
-    <p>©2019 Meetthekosmos.com. All rights reserved.</p>
+    <p>© 2019 Meetthekosmos.com. All rights reserved.</p>
+    <h7>
+       Makes with
+      <i class="fa fa-heart" style="color:Tomato"></i> by
+      <a href="http://www.balukov.com">ivan balukov</a>
+    </h7>
   </div>
   <div class="social-footer-icons">
     <ul class="menu simple">
       <li>
-        <a href="http://instagram.com/tashakosmos"
+        <a href="http://instagram.com/"
           ><i class="fa fa-instagram" aria-hidden="true"></i
         ></a>
       </li>
       <li>
-        <a href="https://www.facebook.com/tasha.konkina"
+        <a href="http://facebook.com/"
           ><i class="fa fa-facebook" aria-hidden="true"></i
         ></a>
       </li>
       <li>
-        <a href="http://vk.com/tashakosmos"
+        <a href="http://vk.com/"
           ><i class="fa fa-vk" aria-hidden="true"></i
         ></a>
       </li>
@@ -154,7 +161,8 @@
     });
     $("#lightgallery").lightGallery({
       thumbnail: true,
-      download: false
+      download: false,
+      selector: ".item"
     });
   });
 </script>

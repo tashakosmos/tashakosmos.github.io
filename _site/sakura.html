@@ -63,116 +63,123 @@
     </ul>
   </div>
 </div>
+ <div class="grid-x" style="background: #333">
+  <div class="cell">
+    <h2 class="text-center" style="color: #fff;">Sakura band</h2>
+  </div>
+</div>
+</br>
 
-
-    <div class="grid-x" style="background: #333">
-      <div class="cell">
-        <h2 class="text-center" style="color: #fff;">Sakura band</h2>
-      </div>
-    </div>
-
-    <div class="grid-x">
-      <div class="cell large-8 large-offset-2">
-        <p>The last concert of <a href="https://vk.com/sakuraspace">Sakura</a> - one of my favourite Russian bands.</p>
+    <div class="grid-container">
+      <div class="grid-x">
+        <div class="cell">
+          <p>The last concert of <a href="https://vk.com/sakuraspace">Sakura</a> - one of my favourite Russian bands.</p>
 
 <div id="lightgallery">
   
-  <a href="/images/sakura/1.jpg">
+  <a class="item" href="/images/sakura/1.jpg">
     <img src="/images/sakura/1.jpg" />
   </a>
   
-  <a href="/images/sakura/10.jpg">
+  <a class="item" href="/images/sakura/10.jpg">
     <img src="/images/sakura/10.jpg" />
   </a>
   
-  <a href="/images/sakura/11.jpg">
+  <a class="item" href="/images/sakura/11.jpg">
     <img src="/images/sakura/11.jpg" />
   </a>
   
-  <a href="/images/sakura/12.jpg">
+  <a class="item" href="/images/sakura/12.jpg">
     <img src="/images/sakura/12.jpg" />
   </a>
   
-  <a href="/images/sakura/13.jpg">
+  <a class="item" href="/images/sakura/13.jpg">
     <img src="/images/sakura/13.jpg" />
   </a>
   
-  <a href="/images/sakura/14.jpg">
+  <a class="item" href="/images/sakura/14.jpg">
     <img src="/images/sakura/14.jpg" />
   </a>
   
-  <a href="/images/sakura/15.jpg">
+  <a class="item" href="/images/sakura/15.jpg">
     <img src="/images/sakura/15.jpg" />
   </a>
   
-  <a href="/images/sakura/16.jpg">
+  <a class="item" href="/images/sakura/16.jpg">
     <img src="/images/sakura/16.jpg" />
   </a>
   
-  <a href="/images/sakura/17.jpg">
+  <a class="item" href="/images/sakura/17.jpg">
     <img src="/images/sakura/17.jpg" />
   </a>
   
-  <a href="/images/sakura/18.jpg">
+  <a class="item" href="/images/sakura/18.jpg">
     <img src="/images/sakura/18.jpg" />
   </a>
   
-  <a href="/images/sakura/2.jpg">
+  <a class="item" href="/images/sakura/2.jpg">
     <img src="/images/sakura/2.jpg" />
   </a>
   
-  <a href="/images/sakura/3.jpg">
+  <a class="item" href="/images/sakura/3.jpg">
     <img src="/images/sakura/3.jpg" />
   </a>
   
-  <a href="/images/sakura/4.jpg">
+  <a class="item" href="/images/sakura/4.jpg">
     <img src="/images/sakura/4.jpg" />
   </a>
   
-  <a href="/images/sakura/5.jpg">
+  <a class="item" href="/images/sakura/5.jpg">
     <img src="/images/sakura/5.jpg" />
   </a>
   
-  <a href="/images/sakura/6.jpg">
+  <a class="item" href="/images/sakura/6.jpg">
     <img src="/images/sakura/6.jpg" />
   </a>
   
-  <a href="/images/sakura/7.jpg">
+  <a class="item" href="/images/sakura/7.jpg">
     <img src="/images/sakura/7.jpg" />
   </a>
   
-  <a href="/images/sakura/8.jpg">
+  <a class="item" href="/images/sakura/8.jpg">
     <img src="/images/sakura/8.jpg" />
   </a>
   
-  <a href="/images/sakura/9.jpg">
+  <a class="item" href="/images/sakura/9.jpg">
     <img src="/images/sakura/9.jpg" />
   </a>
   
 </div>
 
 
+        </div>
       </div>
     </div>
 
-    <footer class="social-footer">
+    <br />
+<footer class="social-footer">
   <div class="social-footer-left">
-    <p>©2019 Meetthekosmos.com. All rights reserved.</p>
+    <p>© 2019 Meetthekosmos.com. All rights reserved.</p>
+    <h7>
+       Makes with
+      <i class="fa fa-heart" style="color:Tomato"></i> by
+      <a href="http://www.balukov.com">ivan balukov</a>
+    </h7>
   </div>
   <div class="social-footer-icons">
     <ul class="menu simple">
       <li>
-        <a href="http://instagram.com/tashakosmos"
+        <a href="http://instagram.com/"
           ><i class="fa fa-instagram" aria-hidden="true"></i
         ></a>
       </li>
       <li>
-        <a href="https://www.facebook.com/tasha.konkina"
+        <a href="http://facebook.com/"
           ><i class="fa fa-facebook" aria-hidden="true"></i
         ></a>
       </li>
       <li>
-        <a href="http://vk.com/tashakosmos"
+        <a href="http://vk.com/"
           ><i class="fa fa-vk" aria-hidden="true"></i
         ></a>
       </li>
@@ -208,7 +215,8 @@
     });
     $("#lightgallery").lightGallery({
       thumbnail: true,
-      download: false
+      download: false,
+      selector: ".item"
     });
   });
 </script>

@@ -2,8 +2,12 @@
 
 // init Isotope
 var $grid = $(".gallery").isotope({
-  itemSelector: ".element-item"
+  itemSelector: ".cell"
   // layoutMode: "fitRows"
+});
+// layout Isotope after each image loads
+$grid.imagesLoaded().progress(function() {
+  $grid.isotope("layout");
 });
 // bind filter button click
 $(".menu-hover-lines").on("click", "li", function() {

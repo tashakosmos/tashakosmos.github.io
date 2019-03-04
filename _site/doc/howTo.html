@@ -64,17 +64,17 @@
     </ul>
   </div>
 </div>
+ <div class="grid-x" style="background: #333">
+  <div class="cell">
+    <h2 class="text-center" style="color: #fff;"></h2>
+  </div>
+</div>
+</br>
 
-
-    <div class="grid-x" style="background: #333">
-      <div class="cell">
-        <h2 class="text-center" style="color: #fff;"></h2>
-      </div>
-    </div>
-
-    <div class="grid-x">
-      <div class="cell large-8 large-offset-2">
-        <p>запуск в Terminal после mac$: jekyll serve
+    <div class="grid-container">
+      <div class="grid-x">
+        <div class="cell">
+          <p>запуск в Terminal после mac$: jekyll serve
 открыть сайт в браузере: http://127.0.0.1:4000/
 загрузить картинки: новая папка в разделе Images. Drag’n’drop.
 Пронумеровать картинки по порядку.
@@ -96,14 +96,18 @@
 <p>Framework:</p>
 
 <ol>
-  <li>
-    <p>one picture
-<img src="/images/rezo/r-1" /></p>
+  <li>one picture
+    <div class="text-center">
+  <img src="/images/rezo/r-1" />
+</div>
   </li>
-  <li>
-    <p>two pictures
+</ol>
+<p>&lt;/div&gt;
 <br /></p>
-  </li>
+
+<ol>
+  <li>two pictures
+<br /></li>
 </ol>
 <div class="grid-x">
   <div class="large-6">
@@ -135,27 +139,34 @@ http://miromannino.github.io/Justified-Gallery/options-and-events/</p>
 <p>Masonry
 http://sachinchoolur.github.io/lightGallery/</p>
 
+        </div>
       </div>
     </div>
 
-    <footer class="social-footer">
+    <br />
+<footer class="social-footer">
   <div class="social-footer-left">
-    <p>©2019 Meetthekosmos.com. All rights reserved.</p>
+    <p>© 2019 Meetthekosmos.com. All rights reserved.</p>
+    <h7>
+       Makes with
+      <i class="fa fa-heart" style="color:Tomato"></i> by
+      <a href="http://www.balukov.com">ivan balukov</a>
+    </h7>
   </div>
   <div class="social-footer-icons">
     <ul class="menu simple">
       <li>
-        <a href="http://instagram.com/tashakosmos"
+        <a href="http://instagram.com/"
           ><i class="fa fa-instagram" aria-hidden="true"></i
         ></a>
       </li>
       <li>
-        <a href="https://www.facebook.com/tasha.konkina"
+        <a href="http://facebook.com/"
           ><i class="fa fa-facebook" aria-hidden="true"></i
         ></a>
       </li>
       <li>
-        <a href="http://vk.com/tashakosmos"
+        <a href="http://vk.com/"
           ><i class="fa fa-vk" aria-hidden="true"></i
         ></a>
       </li>
@@ -191,7 +202,8 @@ http://sachinchoolur.github.io/lightGallery/</p>
     });
     $("#lightgallery").lightGallery({
       thumbnail: true,
-      download: false
+      download: false,
+      selector: ".item"
     });
   });
 </script>

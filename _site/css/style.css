@@ -72,13 +72,14 @@
   transition-duration: 0.5s;
 }
 
-.gallery .element-item a {
+.gallery .cell a {
   position: relative;
   display: block;
   overflow: hidden;
+  padding: 2px;
 }
 
-.gallery .element-item a .overlay {
+.gallery .cell a .overlay {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -92,27 +93,27 @@
   transition: all 0.3s linear;
 }
 
-.gallery .element-item a .overlay .info {
+.gallery .cell a .overlay .info {
   top: 55%;
   position: relative;
   opacity: 0;
 }
 
-.gallery .element-item a h3 {
+.gallery .cell a h3 {
   color: #fff;
   margin-bottom: 10px;
 }
 
-.gallery .element-item a p {
+.gallery .cell a p {
   color: #fff;
   font-size: 0.875rem;
 }
 
-.gallery .element-item a:hover .overlay {
+.gallery .cell a:hover .overlay {
   opacity: 1;
 }
 
-.gallery .element-item a:hover .overlay .info {
+.gallery .cell a:hover .overlay .info {
   -moz-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
@@ -123,20 +124,21 @@
   opacity: 1;
 }
 
-.gallery .element-item a:hover img {
+.gallery .cell a:hover img {
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-.gallery .element-item.hidden {
+.gallery .cell.hidden {
   opacity: 0.1;
 }
 
 /* Footer */
 .social-footer {
   padding: 1rem;
+  color: #fefefe;
   background: #8a8a8a;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -161,4 +163,43 @@
 .social-footer .social-footer-icons .fa:hover {
   color: #4a4a4a;
   transition: color 0.3s ease-in;
+}
+
+/* About */
+
+/* .about-the-author {
+  background-color: #fefefe;
+  padding: 1rem;
+} */
+
+/* .about-the-author .separator-left {
+  text-align: left;
+} */
+
+.about-the-author .separator-left::before,
+.about-the-author .separator-left::after {
+  display: table;
+  content: " ";
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+/* .about-the-author .separator-left::after {
+  clear: both;
+} */
+
+.about-the-author .separator-left::after {
+  position: relative;
+  width: 5rem;
+  border-bottom: 0.125rem solid #1779ba;
+  margin: 0.3rem auto 0;
+  margin-left: 0;
+}
+
+.about-the-author .author-image {
+  border: 1px solid #cacaca;
 }
