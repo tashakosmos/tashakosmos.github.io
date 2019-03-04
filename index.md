@@ -8,12 +8,12 @@ classes:
   - people
   - blog
 works:
-  - image: images/bikeslights/bl2.jpg
+  - image: bikeslights/bl2.jpg
     class: blog
     title: Bikes and Lights video
     desc: "4 friends, 2 bikes, 12 lighthouses"
     link: bikeslights
-  - image: images/platform/hogw.jpg
+  - image: platform/hogw.jpg
     class: blog
     title: How to get to Hogwarts from Russia
     desc: "or how small steps change the world"
