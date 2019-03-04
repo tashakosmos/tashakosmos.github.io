@@ -18,10 +18,12 @@ Main files and folders:
 Framework:
 
 1. one picture
-   {% include one-picture.html folder="rezo" picture="r-1" %}
+   {% include one-picture.html folder="rezo" picture="r1.jpg" %}
 2. two pictures
-   {% include two-pictures.html folder="rezo" picture1="r-1" picture2="r-2" %}
-3. [link](example.com){:target="\_blank"}
+   {% include two-pictures.html folder="rezo" picture1="r1.jpg" picture2="r2.jpg" %}
+3. three pictures
+   {% include two-pictures.html folder="rezo" picture1="r1.jpg" picture2="r2.jpg" picture3="r3.jpg"%}
+4. [link](example.com){:target="\_blank"}
 
 Links:
 Markdown Cheatsheet:
