@@ -7,13 +7,15 @@
 не забывать сохранять каждое действие
 
 Run:
+
 'jekyll serve' in terminal
 
 Main files and folders:
 
-1. index.html
-2. posts
-3. images
+1. index.md
+2. about.md
+3. posts
+4. images
 
 Framework:
 
@@ -26,7 +28,8 @@ Framework:
 4. [link](example.com){:target="\_blank"}
 
 Links:
-Markdown Cheatsheet:
+
+Markdown Cheatsheet
 https://github.com/adam-p/Markdown-here/wiki/Markdown-Cheatsheet
 
 Foundation
