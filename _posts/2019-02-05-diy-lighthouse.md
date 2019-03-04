@@ -10,13 +10,13 @@ permalink: diy-lighthouse
 На вопрос “Таша, где ты купила такой классный маяк?” так приятно с гордостью
 отвечать “Сделала сама!”
 
-{% include one-picture.html folder="diy-light" picture="1" %}
+{% include one-picture.html folder="diy-light" picture="1.jpg" %}
 
 Но спешу вам представить его главного архитектора и просто отличного
 парня Будимира, который сконструировал макет и придумал, как заставить
 картонный маяк работать.
 
-{% include one-picture.html folder="diy-light" picture="2" %}
+{% include one-picture.html folder="diy-light" picture="2.jpg" %}
 
 Будимир такой крутой, что разрешил мне опубликовать макет и инструкцию
 по сборке. Но хоть на словах и всё просто, вряд ли вам захочется паять,
@@ -42,12 +42,12 @@ permalink: diy-lighthouse
 Вырезайте не ножницами! А ножом по линейке. Сгибайте по контурам тоже
 используя линейку.
 
-{% include one-picture.html folder="diy-light" picture="3" %}
+{% include one-picture.html folder="diy-light" picture="3.jpg" %}
 
 Отсоедините лишнюю бумагу с макетом и склейте скотчем башню маяка.
 Приклеить площадку для огня и склеить макушку нужно клеевым пистолетом.
 
-{% include one-picture.html folder="diy-light" picture="4" %}
+{% include one-picture.html folder="diy-light" picture="4.jpg" %}
 
 Перед тем, как приклеить площадку, проткните её центр и установите в нём
 светодиод. Провода, соединяющие его с батарейкой, будут проходить внутри
@@ -55,16 +55,16 @@ permalink: diy-lighthouse
 так, чтобы диод оказался с одной стороны площадки, а отсек для батарейки – с
 другой. После этого площадку можно приклеить к башне.
 
-{% include one-picture.html folder="diy-light" picture="5" %}
+{% include one-picture.html folder="diy-light" picture="5.jpg" %}
 
 Самый магический момент: подсоединяем батарейку к отсеку. Свет!
 
-{% include one-picture.html folder="diy-light" picture="6" %}
+{% include one-picture.html folder="diy-light" picture="6.jpg" %}
 
 Как видите, на фотографиях с Будимиром не вырезаны окна и дверь – их расположение и наличие остается на ваше усмотрение. Если решите делать – вырезать их надо на самом первом этапе.
 На первом фото мой маяк белый, но дома я его раскрасила и сейчас он выглядит вот так:
 
-{% include one-picture.html folder="diy-light" picture="7" %}
+{% include one-picture.html folder="diy-light" picture="7.jpg" %}
 
 Если всё же решите собирать маяк сами и что-то не будет получаться –
 <a
