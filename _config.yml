@@ -9,12 +9,12 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 
 # Social
 email: tashakosmos@gmail.com
-facebook: tasha.konkina
-vk: tashakosmos
-instagram: tashakosmos
+facebook: http://facebook.com/tasha.konkina
+vk: http://vk.com/tashakosmos
+instagram: http://instagram.com/tashakosmos
 
 # Build settings
 markdown: kramdown
 
 # Develop
-version: v0.2.2
+version: v0.2.3

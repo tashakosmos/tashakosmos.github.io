@@ -13,4 +13,4 @@ I'd say I am an explorer always excited to see what the world will bring next.
 
 Let my photographs and stories speak for themselves.
 
-Feel free tomessage me on [Instagram](http://instagram.com/tashakosmos){:target="\_blank"}, [Facebook](http://facebook.com/tasha.konkina){:target="\_blank"} or [VKontakte](http://vk.com/tashakosmos){:target="\_blank"}.
+Feel free tomessage me on [Instagram]({{site.instagram}}){:target="\_blank"}, [Facebook]({{site.facebook}}){:target="\_blank"} or [VKontakte]({{site.vk}}){:target="\_blank"}.
