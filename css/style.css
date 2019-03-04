@@ -1,8 +1,23 @@
 /* Top bar */
-.topbar-center-logo .top-bar-center {
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
+.top-bar {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  background-color: white;
+}
+
+.top-bar-center {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 100px;
+}
+
+.top-bar-right ul {
+  background-color: white;
 }
 
 /* Index menu */
