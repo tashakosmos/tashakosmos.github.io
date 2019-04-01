@@ -8,8 +8,23 @@ classes:
   - people
   - blog
 works:
+  - image: mashavasya/0.jpg
+    class: people
+    title: Masha and Vasilisa
+    desc: "look who's born"
+    link: mashavasya
+  - image: newengland/niagarabike.jpg
+    class: blog travel
+    title: Hitch hiking and biking
+    desc: "from Boston to Niagara Falls and Chicago"
+    link: hitchbiking
+  - image: newengland/ne1.jpg
+    class: blog travel
+    title: New England
+    desc: "and lighthouses of the East coast"
+    link: newengland
   - image: bikeslights/bl2.jpg
-    class: blog
+    class: blog travel
     title: Bikes and Lights video
     desc: "4 friends, 2 bikes, 12 lighthouses"
     link: bikeslights
