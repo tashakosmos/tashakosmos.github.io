@@ -8,6 +8,11 @@ classes:
   - people
   - blog
 works:
+  - image: texts/txt.jpg
+    class: blog
+    title: Publications
+    desc: "текстовое портфолио"
+    link: texts
   - image: mashavasya/0.jpg
     class: people
     title: Masha and Vasilisa
