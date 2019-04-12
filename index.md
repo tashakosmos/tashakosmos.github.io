@@ -43,7 +43,7 @@ works:
     title: DIY-маяк
     desc: "инструкция по сборке"
     link: diy-lighthouse
-  - image: tanzania/t-5.jpg
+  - image: tanzania/3.jpg
     class: travel
     title: Tanzania
     desc: "Safari and Zanzibar"
