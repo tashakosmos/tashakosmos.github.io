@@ -8,7 +8,7 @@ classes:
   - people
   - blog
 works:
-  - image: brompton/10.jpg
+  - image: brompton/9.jpg
     class: commercial
     title: Bikes and Rails
     desc: "English classics on a Russian rail station"
