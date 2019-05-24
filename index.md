@@ -8,6 +8,11 @@ classes:
   - people
   - blog
 works:
+  - image: tolbukhin/1.jpg
+    class: travel
+    title: Skiing to the lighthouse
+    desc: "4 miles on ice to the oldest Russian lighthouse"
+    link: tolbukhin
   - image: brompton/9.jpg
     class: commercial
     title: Bikes and Rails
