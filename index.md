@@ -8,6 +8,11 @@ classes:
   - people
   - blog
 works:
+  - image: ann/4.jpg
+    class: people
+    title: Ann
+    desc: "and a Zanzibar twilight"
+    link: ann
   - image: tolbukhin/1.jpg
     class: travel
     title: Skiing to the lighthouse
