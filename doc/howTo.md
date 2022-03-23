@@ -10,6 +10,14 @@ Run:
 
 'jekyll serve' in terminal
 
+Deploy:
+
+- open Source Tree
+- click Коммит
+- write commit message
+- click Коммит
+- click Отправить
+
 Main files and folders:
 
 1. index.md

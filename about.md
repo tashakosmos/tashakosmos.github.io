@@ -5,7 +5,7 @@ myname: "Tasha Konkina"
 photo: tsh.jpg
 ---
 
-Nice to meet you!!
+Nice to meet you!
 My name is Tasha Konkina.
 
 You may know me as a photographer, a writer, a marketing manager, a bicycle activist or a lighthouse guide.
